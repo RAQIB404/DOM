@@ -8,3 +8,11 @@ console.log(heading);
 
 const head = document.querySelectorAll("p");
 console.log(head);
+
+const main = document.querySelector("#hi");
+console.log(main);
+
+const index = document.getElementsByTagName("p");
+for(let i=0;i<heading.clientHeight;i++){
+console.log(index);
+}
