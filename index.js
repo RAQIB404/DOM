@@ -16,3 +16,7 @@ const index = document.getElementsByTagName("p");
 for(let i=0;i<heading.clientHeight;i++){
 console.log(index);
 }
+
+const cls = document.getElementsByClassName("we");
+console.log(cls);
+
