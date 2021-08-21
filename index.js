@@ -20,3 +20,26 @@ console.log(index);
 const cls = document.getElementsByClassName("we");
 console.log(cls);
 
+let parentE1=document.getElementById("parent");
+console.log(parentE1);
+
+let pa=document.getElementById("parent")
+console.log(pa.firstChild);
+
+let pare=document.getElementById("parent")
+console.log(pa.lastChild);
+
+let paren=document.getElementById("parent")
+console.log(paren.children);
+
+let midpa=document.getElementById("parent")
+console.log(midpa.nextElementSibling);
+
+let mid=document.getElementById("parent")
+console.log(mid.previousElementSiblings);
+
+let mid1=document.getElementById("parent")
+console.log(mid1.nextSibling);
+
+let mid2=document.getElementById("parent")
+console.log(mid2.previousSibling);
